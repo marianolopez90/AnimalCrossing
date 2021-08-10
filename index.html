@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Primer sitio en Bootstrap</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/PlayStation-simbolo.jpg" alt="" width="150" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Paquete de Verano</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">registrar</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Iniciar Sesion</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="carousel slide" id="mainSlider" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/rulo2.jpg" alt="" class="d-block w-100" />
+      </div>
+      <div class="carousel-item">
+        <img src="./img/rulo.jpg" alt="" class="d-block w-100" />
+      </div>
+      <div class="carousel-item">
+        <img src="./img/rulo3.jpg" alt="" class="d-block w-100" />
+      </div>
+    </div>
+  </div>
+
+  <div id="ribbon" class="container-fluid">
+    <div id="birthday" class="container w-50 px-5 rounded-lg">
+      <div class="row align-items-center">
+        <div class="col-sm p-3">
+          <img src="./img/rulo4.png" class="w-100 mx-auto d-block" alt="" />
+        </div>
+
+        <div class="col-sm p-3 text-light text-center">
+          <p class="text-warning h3">Es hoy</p>
+          <h4 class="text-shadow h2">El dia para jugar</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="separator-ribbon">
+    <div class="content bg-warning"></div>
+  </div>
+
+  <div id="games">
+    <div class="container-md p-5">
+      <div class="row pt-5">
+        <h3 class="col-sm p-3 text-center text-shadow pb-5 pt-5 h1">Juegos destacados de animal crossing</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <div class="card w-100 card-border mb-5">
+            <img src="./img/rulo9.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Titulo de la tarjeta</h5>
+              <p class="card-text">Un texto de ejemplo rápido para construir el título de la tarjeta y hacer la mayor
+                parte del contenido de la tarjeta.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card w-100 card-border mb-5">
+            <img src="./img/rulo7.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Titulo de la tarjeta</h5>
+              <p class="card-text">Un texto de ejemplo rápido para construir el título de la tarjeta y hacer la mayor
+                parte del contenido de la tarjeta.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card w-100 card-border mb-5">
+            <img src="./img/rulo10.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Titulo de la tarjeta</h5>
+              <p class="card-text">Un texto de ejemplo rápido para construir el título de la tarjeta y hacer la mayor
+                parte del contenido de la tarjeta.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col">
+        <h3 class="text-center" style="color: #0d6efd">Mas juegos en Nintendo.com</h3>
+      </div>
+
+    </div>
+
+
+    <div class="row justify-content-center">
+      <div class="col-2"><a href="#">Nintendo Switch</a></div>
+      <div class="col-2"><a href="#">Nintendo 3DS</a></div>
+      <div class="col-1"><a href="#">Wii U</a></div>
+      <div class="col-1"><a href="#">Mobile</a></div>
+      <div class="col-1"><a href="#">Retro</a></div>
+    </div>
+
+  </div>
+  </div>
+
+  <div id="separator-amiibos">
+    <div class="content bg-success"></div>
+
+  </div>
+
+  <div id="amiibos" class="px-5 pb-5 bg-warning">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-sm-12">
+          <h2 class="text-center text-shadow">Figuras amigos Destacadas</h2>
+        </div>
+      </div>
+      <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+        <div class="col-sm text-center">
+          <img src="./img/amiibo-kapn.png" alt="" class="w-100 amiibo">
+          <div class="text-center"><span class="amiibo-name h5 p-2">Capitan</span></div>
+        </div>
+
+
+        <div class="col-sm text-center">
+          <img src="./img/amiibo-rover.png" alt="" class="w-100 amiibo">
+          <div class="text-center"><span class="amiibo-name h5 p-2">Pedro</span></div>
+        </div>
+
+
+        <div class="col-sm text-center">
+          <img src="./img/amiibo-timmytommy.png" alt="" class="w-100 amiibo">
+          <div class="text-center"><span class="amiibo-name h5 p-2">Jose y Pablo</span></div>
+        </div>
+
+
+        <div class="col-sm text-center">
+          <img src="./img/amiibo-isabelle.png" alt="" class="w-100 amiibo">
+          <div class="text-center"><span class="amiibo-name h5 p-2">Isabelle</span></div>
+        </div>
+      
+        </div>
+     
+        <div class="row py-5">
+            <div class="col text-center">
+              <a href="#" class="link-dark">
+              <button class="btn btn-warning btn-lg rounded-pill p-2 mb-5 font-weight-bold">Nuevo catalogo de amigos</button>
+              </a>
+            </div>
+          </div>
+
+          <div id="separator-amiibos-footer"></div>
+
+    </div>
+  </div>
+
+
+  <div id="play">
+      <div class="container-sm p-5">
+        <div class="row">
+          <div class="col-sm-12">
+          <h3 class="text-center p-3 h1 text-shadow">Isabelle y sus amigos en play nintendo</h3>
+        </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-3 d-none d-md-block">
+            <img src="img/amiibo-isabelle.png" alt="" class="w-100">
+          </div>
+
+          <div class="col-9">
+            <div class="row">
+              <div class="col">
+
+                <div class="card bg-primary text-white">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="./img/61M-RJ1fiXL.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <h4 class="card-title text-center">Titulo de la tarjeta</h4>
+                        <p class="card-text">Se trata de una tarjeta más amplia con un texto de apoyo debajo como entrada natural a un contenido adicional. Este contenido es un poco más largo.</p>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<div id="footer" class="p-5">
+  <div class="container w-50 pt-5">
+    <div class="row row-cols-md-2 justify-content-md-center">
+      <div class="col text-center">
+        <a href="#">
+          <button class="btn btn-lg rounded-pill btn-warning w-100 p-3 shadow-sm font-weight-bold">Asistencia a los clientes</button>
+        </a>
+      </div>
+    </div>
+    <div class="row justify-content-md-center py-5">
+     <div class="col text-center font-weight-light">
+       <p>Animal crossing es una serie de videojuegos de simulación de vida publicada por Nintendo y creada por Katsuya Eguchi y Hisashi Nogami, ​​​​​ en la que el jugador vive en un pueblo habitado por animales antropomórficos, llevando a cabo diversas actividades</p>
+       <p>© 2001 - 2021 Playstation. Playstation properties are trademarks of Playstation.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <script src="js/pooper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
